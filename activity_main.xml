@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#f6f4f4"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    android:weightSum="3"
+
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Chats"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:id="@+id/chat"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Status"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:id="@+id/status"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Call"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:id="@+id/calls"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
